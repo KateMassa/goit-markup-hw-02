@@ -1,0 +1,27 @@
+body {
+  font-family: "Roboto", "Verdana", sans-serif;
+  font-size: 16px;
+  color: #434455;
+  background-color: #fff;
+  line-height: 24px;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+/*header*/
+#logo {
+  text-transform: uppercase;
+  color: #2e2f42;
+  text-decoration: none;
+}
+.web {
+  color: #4d5ae5;
+}
+/*main block*/
+/*hero screen*/
+/*Features*/
+/*Team*/
+/*Portfolio*/
+/*footer*/
