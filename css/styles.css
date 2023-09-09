@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Verdana", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #434455;
   background-color: #fff;
@@ -12,51 +12,63 @@ ol {
   list-style-type: none;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 60px;
-  letter-spacing: 2%;
-  color: #fff;
-}
-
-h2 {
+.header-2 {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 2%;
 }
 
-h3 {
+.header-3 {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 2%;
+  text-align: center;
 }
 /*header*/
 /*logo*/
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   text-transform: uppercase;
+  font-size: 18px;
   font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 3%;
   text-decoration: none;
-}
-.web {
   color: #4d5ae5;
 }
 .studio {
   color: #2e2f42;
 }
+
 .menu {
   color: #2e2f42;
   font-weight: 500;
   text-decoration: none;
+  letter-spacing: 2%;
 }
+.menu:hover {
+  color: #404bbf;
+}
+.menu:focus {
+  color: #404bbf;
+}
+
 /*contacts*/
+.address {
+  font-style: normal;
+}
 .contacts {
   color: #434455;
-  font-style: normal;
   text-decoration: none;
+  initial-letter: 2%;
+}
+.contacts:hover {
+  color: #404bbf;
+}
+.contacts:focus {
+  color: #404bbf;
 }
 /*main block*/
 /*hero screen*/
@@ -64,24 +76,64 @@ h3 {
 .hero-screen {
   background-color: #2e2f42;
 }
+
+.title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #fff;
+}
 .hero-button {
+  font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
   color: #fff;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
   letter-spacing: 4%;
+  cursor: pointer;
+}
+.hero-button:hover {
+  color: #404bbf;
+}
+.hero-button:focus {
+  color: #404bbf;
 }
 
 /*Features*/
+.features-text {
+  letter-spacing: 2%;
+}
+
+.header-2 {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
 /*Team*/
+.team {
+  background-color: #f4f4fd;
+}
+.team-members {
+  text-align: center;
+}
 /*Portfolio*/
+.portfolio-list {
+  text-align: left;
+}
 /*footer*/
 footer {
   background-color: #2e2f42;
 }
 .footer-text {
   color: #f4f4fd;
+  letter-spacing: 2%;
 }
 .footer-studio {
   color: #f4f4fd;
