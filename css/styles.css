@@ -12,15 +12,20 @@ ol {
   list-style-type: none;
 }
 
-.header-2 {
+.features-header,
+.team-header,
+.portfolio-header {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
 }
 
-.header-3 {
+.features-card-header,
+.team-card-header,
+.portfolio-card-header {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -108,15 +113,6 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.header-2 {
-  color: #2e2f42;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-}
-
 /*Team*/
 .team {
   background-color: #f4f4fd;
@@ -130,6 +126,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 /*Portfolio*/
 .portfolio-card {
   text-align: left;
