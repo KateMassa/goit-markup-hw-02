@@ -4,24 +4,85 @@ body {
   color: #434455;
   background-color: #fff;
   line-height: 24px;
+  text-decoration: none;
 }
 
 ul,
 ol {
   list-style-type: none;
 }
-/*header*/
-#logo {
-  text-transform: uppercase;
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 2%;
+  color: #fff;
+}
+
+h2 {
   color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2%;
+}
+
+h3 {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2%;
+}
+/*header*/
+/*logo*/
+.logo {
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-weight: 700;
   text-decoration: none;
 }
 .web {
   color: #4d5ae5;
 }
+.studio {
+  color: #2e2f42;
+}
+.menu {
+  color: #2e2f42;
+  font-weight: 500;
+  text-decoration: none;
+}
+/*contacts*/
+.contacts {
+  color: #434455;
+  font-style: normal;
+  text-decoration: none;
+}
 /*main block*/
 /*hero screen*/
+
+.hero-screen {
+  background-color: #2e2f42;
+}
+.hero-button {
+  background-color: #4d5ae5;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: 4%;
+}
+
 /*Features*/
 /*Team*/
 /*Portfolio*/
 /*footer*/
+footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  color: #f4f4fd;
+}
+.footer-studio {
+  color: #f4f4fd;
+}
