@@ -131,8 +131,9 @@ ol {
   letter-spacing: 0.02em;
 }
 /*Portfolio*/
-.portfolio-list {
+.portfolio-card {
   text-align: left;
+  letter-spacing: 0.02em;
 }
 /*footer*/
 footer {
