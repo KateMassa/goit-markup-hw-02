@@ -117,15 +117,18 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .title {
+  width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin-bottom: 48px;
 }
 .hero-button {
   width: 169px;
@@ -138,10 +141,6 @@ ol {
   font-weight: 500;
   letter-spacing: 0.04em;
   cursor: pointer;
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
   border-radius: 4px;
 }
 .hero-button:hover,
@@ -150,6 +149,9 @@ ol {
 }
 
 /*Features*/
+.features {
+  display: flex;
+}
 .features-card-text {
   letter-spacing: 0.02em;
 }
