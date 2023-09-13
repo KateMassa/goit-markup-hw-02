@@ -23,9 +23,9 @@ ol {
   object-fit: cover;
 }
 
-.features-header,
-.team-header,
-.portfolio-header {
+.features-heading,
+.team-heading,
+.portfolio-heading {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
@@ -35,9 +35,9 @@ ol {
   text-transform: capitalize;
 }
 
-.features-card-header,
-.team-card-header,
-.portfolio-card-header {
+.features-card-heading,
+.team-card-heading,
+.portfolio-card-heading {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -45,6 +45,14 @@ ol {
   text-align: center;
 }
 /*header*/
+.container {
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0;
+}
 /*logo*/
 .logo {
   font-family: Raleway, sans-serif;
@@ -55,20 +63,25 @@ ol {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #4d5ae5;
+  display: inline-flex;
+  margin-right: 36px;
+  margin-left: 156px;
 }
 .studio {
   color: #2e2f42;
 }
-
 .menu {
+  display: inline-flex;
+  gap: 40px;
+}
+
+.menu-item {
   color: #2e2f42;
   font-weight: 500;
   text-decoration: none;
   letter-spacing: 0.02em;
 }
-.menu:hover {
-  color: #404bbf;
-}
+.menu:hover,
 .menu:focus {
   color: #404bbf;
 }
@@ -76,23 +89,34 @@ ol {
 /*contacts*/
 .address {
   font-style: normal;
+  margin-right: 156px;
+  margin-left: auto;
 }
 .contacts {
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+}
+.contacts-item {
   color: #434455;
   text-decoration: none;
   letter-spacing: 0.02em;
 }
-.contacts:hover {
-  color: #404bbf;
-}
+.contacts:hover,
 .contacts:focus {
   color: #404bbf;
 }
+
 /*main block*/
 /*hero screen*/
 
 .hero-screen {
+  width: 1440px;
+  height: 600px;
   background-color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .title {
@@ -104,6 +128,8 @@ ol {
   color: #fff;
 }
 .hero-button {
+  width: 169px;
+  height: 56px;
   font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
   color: #fff;
@@ -112,10 +138,13 @@ ol {
   font-weight: 500;
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
 }
-.hero-button:hover {
-  background-color: #404bbf;
-}
+.hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
 }
