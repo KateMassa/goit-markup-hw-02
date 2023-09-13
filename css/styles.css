@@ -150,7 +150,26 @@ ol {
 
 /*Features*/
 .features {
+  width: 1124px;
+  height: 104px;
+  margin: 120px 156px;
+}
+.features-list {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+.features-card {
+  width: 264px;
+  height: 164px;
+}
+.features-card-heading {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 .features-card-text {
   letter-spacing: 0.02em;
